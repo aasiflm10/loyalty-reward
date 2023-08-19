@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Profile</title>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="profile.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #2874f0;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    main {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin: 20px auto;
+      max-width: 1200px;
+    }
+
+    .profile,
+    .loyalty-points {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      flex-basis: calc(50% - 20px);
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/flipkart-logo1.png" alt="Flipkart Logo">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="profile">
+      <h2>My Profile</h2>
+      <p><strong>Name:</strong> Computing Warriors</p>
+      <p><strong>Email:</strong> 123@example.com</p>
+      <p><strong>Address:</strong> 123 Main Street, City</p>
+      <p><strong>Phone Number:</strong> 555-123-4567</p>
+    </div>
+    
+    <div class="loyalty-points">
+      <h3>Loyalty Points</h3>
+      <p><strong>Wallet Address:</strong> <span id="wallet-address"></span></p>
+      <p><strong>Available Points:</strong> <span id="available-points"></span></p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Flipkart Grid 5.0 project by Computing Warriors</p>
+  </footer>
+</body>
+</html>
