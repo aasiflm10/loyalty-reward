@@ -21,3 +21,4 @@ contract transactions can be seen on this link :
 https://mumbai.polygonscan.com/address/0xd9496778eee1b00c8e7560c88d07c4f2e3f39b4f
 
 github repo for this project is :
+https://github.com/aasiflm10/loyalty-reward/tree/main
